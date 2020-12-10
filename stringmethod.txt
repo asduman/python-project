@@ -1,0 +1,37 @@
+s.capitalize()- capitalizes the first letter of each substring
+s.center(8, '*')- places the string in the center of the given width (+)
+s.lower()- converts uppercase into lowercase
+s.casefold()- converts uppercase into lowercase but is more diverse
+s.count('substring', 2, 8)- counts how many substrings are in the string from start to end (+)
+s.endswith('suffix', 2, 8)- checks if suffix is at the end of the string from start to end (+) (TF)
+s.find('sub', 2, 8)- finds the index of first occurrence of the substring from start to end and returns -1 if it doesn't exist (+)
+format()- print("Hello {0}, your balance is {blc}.".format("Adam", blc=230.2346))
+s.index('sub', 2, 8)- finds the index of first occurrence of the substring from start to end and gives an error if it doesn't exist (+)
+s.isalnum()- checks if the string is alphanumeric (TF)
+s.isalpha()- checks if the string is alphabet (TF)
+s.isdecimal()- checks if the string is a decimal (TF)
+s.isdigit()- checks if the string is a digit (TF)
+s.isidentifier()- checks if the string is a valid variable (TF)
+s.islower()- checks if the string is all lowercase (TF)
+s.isnumeric()- checks if the string is numeric (TF)
+s.isprintable()- checks if the string is printable (TF)
+s.isspace()- checks if the string is all whitespace (TF)
+s.istitle()- checks if the substrings' first letters are capital (TF)
+s.isupper()- checks if the string is all uppercase (TF)
+s.ljust(8, '*')- alligns the string to the left of the given width (+)
+s.rjust(8, '*')- alligns the string to the right of the given width (+)
+s.upper()- converts all lowercase into uppercase 
+s.swapcase()- converts all lowercase into uppercase and all uppercase into lowercase
+s.strip('char')- removes characters from string (+)
+s.partition('sub')- splits the string at the first occurance of the substring (+)
+s.rpartition('sub')- splits the string as before sub, sub and after sub (+)
+s.replace(old, new, 2)- replaces the old substring with the new substring (+)
+s.rfind('sub', 2, 8)- finds the highest index of occurrence of the substring from start to end and returns -1 if it doesn't exist (+)
+s.rindex('sub', 2, 8)- finds the highest index of occurrence of the substring from start to end and gives an error if it doesn't exist (+)
+s.split(';', maxsplit(2))- splits the string at the specified separator and returns a list of strings (+)
+s.rsplit(';', maxsplit(2))- splits the string from the right at the specified separator and returns a list of strings (+)
+s.startswith('prefix', 2, 8)- checks if prefix is at the beginning of the string from start to end (+) (TF)
+s.title()- capitalizes the first letter of each substring
+s.zfill(8)- adds a zero in the beginning of the string to complete the width given (+)
+s[2:8]- gives the string in that interval
+len(s)- returns the length of a string 
